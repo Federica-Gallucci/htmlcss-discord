@@ -112,13 +112,13 @@ ul {
 }
 
 .header-int {
-  min-height: 205px;
+  min-height: 200px;
   background-image: url(../css./img/jumbo.png);
-
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
+
 .pink-box {
   max-width: 400px;
   min-height: 150px;
@@ -193,7 +193,7 @@ ul {
 }
 
 .purple-button {
-  background-color: rgba(94, 0, 128, 0.908);
+  background-color: rgba(73, 43, 226, 0.75);
   color: white;
 }
 /* FOOTER */
@@ -205,8 +205,9 @@ ul {
 
 .high-box {
   display: flex;
-  justify-content: center;
-  padding-top: 10px;
+  justify-content: space-around;
+
+  padding-top: 50px;
   padding-bottom: 15px;
 }
 
@@ -217,15 +218,27 @@ ul {
 .big {
   min-width: 250px;
   min-height: 350px;
-  background-color: rgb(216, 131, 112);
-  border-style: dashed;
+  color: white;
+}
+
+.big-title {
+  color: rgba(73, 43, 226, 0.75);
+}
+
+.ita {
+  max-width: 20px;
+  color: white;
 }
 
 .little {
   min-width: 125px;
   min-height: 350px;
-  background-color: aquamarine;
-  border-style: dashed;
+  color: rgba(73, 43, 226, 0.75);
+  display: inline;
+}
+
+.little-white {
+  color: white;
 }
 
 .all {
@@ -250,6 +263,7 @@ ul {
 .button {
   width: 60px;
   height: 20px;
+  align-self: center;
 }
 
 .list-box {
@@ -261,9 +275,6 @@ ul {
 .purple {
   background-color: rgba(94, 0, 128, 0.908);
   color: white;
-  font-size: 13px;
-}
-
-.logo {
-  width: 10px;
+  font-size: 12px;
+  text-align: center;
 }
