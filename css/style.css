@@ -38,6 +38,13 @@ ul {
   min-height: 30px;
 }
 
+.button {
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
 .rectangle {
   min-height: 200px;
 }
@@ -52,14 +59,6 @@ ul {
   min-height: 180px;
   align-self: center;
   text-align: center;
-}
-
-.button {
-  width: 50px;
-  height: 30px;
-  border-radius: 20px;
-  background-color: white;
-  color: black;
 }
 
 .big-button {
@@ -111,13 +110,13 @@ img {
 .login {
   display: flex;
   justify-self: flex-end;
-  padding-right: 5px;
+  padding-right: 80px;
 }
 
 .header-int {
   min-height: 205px;
   background-image: url(../css./img/jumbo.png);
-  background-size: cover;
+
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -190,8 +189,14 @@ img {
 
 .im-back {
   background-image: url(../img/stars.svg);
+  background-size: 50%;
 
   margin-bottom: 50px;
+}
+
+.purple-button {
+  background-color: rgba(94, 0, 128, 0.908);
+  color: white;
 }
 /* FOOTER */
 
@@ -235,8 +240,7 @@ img {
 .low-box {
   min-width: 750px;
   min-height: 50px;
-  background-color: aquamarine;
-  border-style: dashed;
+  color: white;
 }
 
 .inside {
@@ -248,12 +252,16 @@ img {
 .button {
   width: 60px;
   height: 20px;
-  background-color: rgb(216, 131, 112);
-  border-style: dashed;
 }
 
 .list-box {
   padding-bottom: 20px;
   border-bottom: 1px solid white;
   margin-bottom: 20px;
+}
+
+.purple {
+  background-color: rgba(94, 0, 128, 0.908);
+  color: white;
+  font-size: 13px;
 }
