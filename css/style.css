@@ -67,9 +67,7 @@ ul {
   border-radius: 20px;
   font-size: 10px;
 }
-img {
-  width: 500px;
-}
+
 /* HEADER */
 
 .header-ext {
@@ -264,4 +262,8 @@ img {
   background-color: rgba(94, 0, 128, 0.908);
   color: white;
   font-size: 13px;
+}
+
+.logo {
+  width: 10px;
 }
